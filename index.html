@@ -2,6 +2,8 @@
 <html>
 
 <head>
+  <title>Projet 5 : Portfolio</title>
+  <link rel="shortcut icon" href="guardia.ico">
   <!-- Import Google Icon Font -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Import materialize.css -->
@@ -11,6 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Import Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
   <!-- Import animate.style -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
@@ -30,7 +33,7 @@
 
   <!-- Menu Structure -->
 
-  <nav class="black">
+  <nav class="black" id="home">
     <div class="na  v-wrapper">
       <div class="container">
         <div class="guardia_logo">
@@ -38,26 +41,26 @@
         </div>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#home">Accueil</a></li>
           <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Projets<i
                 class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="waves-effect waves-light btn" href="contact.html">Contactez-nous</a></li>
+          <li><a class="waves-effect waves-light btn" href='#contact'>Contactez-nous</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <ul class="sidenav" id="mobile-demo">
-    <li><a href="index.html">Accueil</a></li>
+    <li><a href="#home">Accueil</a></li>
     <li><a href="p1.html">Projet n°1</a></li>
     <li><a href="p2.html">Projet n°2</a></li>
     <li><a href="p3.html">Projet n°3</a></li>
-    <li><a href="contact.html">Contactez-nous</a></li>
+    <li><a href="#contact">Contactez-nous</a></li>
   </ul>
 
   <!-- Parallax -->
   <div class="parallax-container">
-    <div class="parallax"><img src="img/header.webp" alt="Image Parallax 1"></div>
+    <div class="parallax image-top"><img src="img/header.webp" alt="Image Parallax 1"></div>
   </div>
 
   <!-- Présentation de l'équipe + Card -->
@@ -125,12 +128,70 @@
     </div>
   </div>  
 
+  <!-- Contactez-nous ? -->
+
+  <div class="container" id="contact">
+    <div class="row">
+        <h2 class="center text_contact_h2">Contactez-Nous</h2>
+    </div>
+    <div class="row">
+        <h3 class="center text_contact_h3">Besoin d'information ?</h3>
+    </div>
+    <div class="row input-container">
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <input type="text" required />
+            <label>Nom</label> 
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input">
+            <input type="text" required />
+            <label>Email</label> 
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input" style="float:right;">
+            <input type="text" required />
+            <label>Numéro de téléphone</label> 
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <textarea required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="btn-lrg submit-btn">Envoyer</div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <ul class="icons">
+        <li><a href="https://www.linkedin.com/company/guardia-cybersecurity-school"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        <li><a href="https://www.facebook.com/guardiaschool/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/guardia_school/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+    <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#">Projet n°1</a></li>
+            <li><a href="#">Projet n°2</a></li>
+            <li><a href="#">Projet n°3</a></li>
+            <li><a href="#contact">Contactez-Nous</a></li>
+    </ul>
+        <div class="footer-copyright">
+            <p>Projet 5 for Guardia: Cybersecurity School</p>
+        </div>
+</footer>
+
   <!-- JavaScript at end of body for optimized loading -->
   <script src="js/jquery.min.js" charset="utf-8"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script src="js/script.js" charset="utf-8"></script>
 </body>
 
