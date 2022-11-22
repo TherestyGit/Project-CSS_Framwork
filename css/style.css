@@ -42,8 +42,14 @@ body{
 }
 
 .projet2-background{
-    background: url("../img/comments-python.webp") no-repeat;
+    background: url("../img/p2bg.webp") no-repeat;
     background-position-y: 25%
+}
+
+.projet3-background{
+    background: url("../img/p3bg.webp") no-repeat;
+    background-size: cover;
+    background-position-y: 35%;
 }
 
 .caroussel-title{
