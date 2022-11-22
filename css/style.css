@@ -1,5 +1,38 @@
+body{
+    font-family:'Merriweather Sans', sans-serif!important;
+}
+
+/* Nav - CSS */
+
 .btn{
-    border-radius: 10px;
+    border-radius: 25px;
     background-color: orange!important;
     color: black!important;
+}
+
+.dropdown-content li > a{
+    background-color: orange!important;
+    color: black!important;
+}
+
+.guardia_logo img{
+    margin-top: 3%;
+    height: 25%;
+    width: 25%;
+}
+
+
+/* Présentation */
+
+.presentation img{
+    max-width: 30%;
+	height: 20%;
+}
+
+.pres_alix h2{
+    font-size: x-large;
+}
+
+.pres_lucas h3{
+    font-size: x-large;
 }
