@@ -1,5 +1,5 @@
 body{
-    font-family:'Merriweather Sans', sans-serif!important;
+    font-family: 'Bree Serif', serif!important;
 }
 
 /* Nav - CSS */
@@ -21,18 +21,22 @@ body{
     width: 25%;
 }
 
-
-/* Présentation */
-
-.presentation img{
-    max-width: 30%;
-	height: 20%;
+.card{
+    border-radius: 20px!important;
 }
 
-.pres_alix h2{
-    font-size: x-large;
+.card img {
+    border-radius: 20px!important;
+    border-bottom-left-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+}
+/* Caroussel */
+
+.projet1-background{
+    background: url("../img/p1bg.webp") no-repeat;
+    background-position-y: 25%;
 }
 
-.pres_lucas h3{
-    font-size: x-large;
+.caroussel-title{
+    background: white;
 }
