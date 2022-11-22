@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Bree Serif', serif!important;
 }
@@ -34,9 +38,14 @@ body{
 
 .projet1-background{
     background: url("../img/p1bg.webp") no-repeat;
-    background-position-y: 25%;
+    background-position-y: 25%
+}
+
+.projet2-background{
+    background: url("../img/comments-python.webp") no-repeat;
+    background-position-y: 25%
 }
 
 .caroussel-title{
-    background: white;
+    color: white;
 }
