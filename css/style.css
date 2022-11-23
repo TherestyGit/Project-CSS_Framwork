@@ -36,6 +36,28 @@ body{
     border-bottom-right-radius: 0px!important;
 }
 
+.zoom-image{
+    overflow:hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.zoom-image img{
+    width:100%;height:auto;
+}
+
+.zoom-image img:hover{
+    width:100%;
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+    -webkit-transition:1s ease-in-out;
+    transition:1s ease-in-out;
+}
+
+.add-linkedin{
+    background-color: #d6be91!important;
+    align-items: center;
+}
 
 /* Parallax */
 
