@@ -10,12 +10,12 @@ body{
 
 .btn{
     border-radius: 25px;
-    background-color: orange!important;
+    background-color: #d6be91!important;
     color: black!important;
 }
 
 .dropdown-content li > a{
-    background-color: orange!important;
+    background-color: #d6be91!important;
     color: black!important;
 }
 
@@ -27,6 +27,7 @@ body{
 
 .card{
     border-radius: 20px!important;
+    box-shadow: 10px 10px 10px #d7b16a!important;
 }
 
 .card img {
@@ -218,7 +219,7 @@ footer li{
 }
 
 .icons a{
-    background: orange;
+    background: #d6be91;
     color: #272727;
     padding: 14px;
     font-size: 20px;
