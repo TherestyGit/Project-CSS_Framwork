@@ -44,7 +44,7 @@
           <li><a href="#home">Accueil</a></li>
           <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Projets<i
                 class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="waves-effect waves-light btn" href='#contact'>Contactez-nous</a></li>
+          <li><button data-target="modal1" class="waves-effect waves-light btn modal-trigger">Contactez-nous</button></li>
         </ul>
       </div>
     </div>
@@ -128,45 +128,51 @@
     </div>
   </div>  
 
-  <!-- Contactez-nous ? -->
+  <!-- Modal Structure : Contactez-nous ? -->
 
-  <div class="container" id="contact">
-    <div class="row">
-        <h2 class="center text_contact_h2">Contactez-Nous</h2>
-    </div>
-    <div class="row">
-        <h3 class="center text_contact_h3">Besoin d'information ?</h3>
-    </div>
-    <div class="row input-container">
-        <div class="col-xs-12">
-          <div class="styled-input wide">
-            <input type="text" required />
-            <label>Nom</label> 
-          </div>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="container" id="contact">
+        <div class="row">
+            <h2 class="center text_contact_h2">Contactez-Nous</h2>
         </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="styled-input">
-            <input type="text" required />
-            <label>Email</label> 
-          </div>
+        <div class="row">
+            <h3 class="center text_contact_h3">Besoin d'information ?</h3>
         </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="styled-input" style="float:right;">
-            <input type="text" required />
-            <label>Numéro de téléphone</label> 
-          </div>
+        <div class="row input-container">
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <input type="text" required />
+                <label>Nom</label> 
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input">
+                <input type="text" required />
+                <label>Email</label> 
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input" style="float:right;">
+                <input type="text" required />
+                <label>Numéro de téléphone</label> 
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <textarea required></textarea>
+                <label>Message</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="btn-lrg submit-btn">Envoyer</div>
+            </div>
         </div>
-        <div class="col-xs-12">
-          <div class="styled-input wide">
-            <textarea required></textarea>
-            <label>Message</label>
-          </div>
-        </div>
-        <div class="col-xs-12">
-          <div class="btn-lrg submit-btn">Envoyer</div>
-        </div>
+      </div>
     </div>
   </div>
+
+  
 
   <!-- Footer -->
   <footer>

@@ -69,9 +69,6 @@ body{
 
 /* Contactez-nous */
 
-body {
-    background-color: #444442;
-}
 
 .text_contact_h2 {
     font-family: 'Poppins', sans-serif, 'arial'!important;
@@ -252,4 +249,8 @@ footer li{
 
 .footer-copyright p{
     margin-bottom: 0px;
+}
+
+.modal .modal-content {
+    background-color: #444442!important;
 }

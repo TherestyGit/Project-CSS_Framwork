@@ -1,11 +1,11 @@
 $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.parallax').parallax();
-    $(".dropdown-trigger").dropdown({ hover: true });
+    $(".dropdown-trigger").dropdown({ hover: true, coverTrigger: false });
     $('.carousel.carousel-slider').carousel({
       fullWidth: true,
-      indicators: true
-    });
+      indicators: true});
+    $('.modal').modal();
   });
 
 new WOW().init();
