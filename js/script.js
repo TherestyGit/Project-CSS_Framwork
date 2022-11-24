@@ -166,3 +166,10 @@ function robot () {
 }
 
 robot();
+
+
+// EE - Reverse site //
+
+function reverseSite(){
+  $("body").css("transform","scaleX(-1)")
+}
