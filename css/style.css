@@ -128,6 +128,12 @@ button{
     line-height: 1.5!important;
 }
 
+/* MODAL CONTACT FORM */
+
+.modal .modal-content {
+    background-color: #444442!important;
+}
+
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
     font-size: 0.75em;
@@ -297,14 +303,6 @@ footer li{
     color: white;
     font-size: medium!important
 }
-
-
-/* MODAL CONTACT FORM */
-
-.modal .modal-content {
-    background-color: #444442!important;
-}
-
 
 
 /* Easter Egg dark mode */ 
